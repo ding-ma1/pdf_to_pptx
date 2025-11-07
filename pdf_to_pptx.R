@@ -35,8 +35,8 @@ check_poppler <- function() {
 
 # Main function: Convert PDF slides to PPTX
 pdf_to_pptx <- function(pdf_file,
-                        pptx_file = NULL,
                         template_pptx,
+                        pptx_file = NULL,
                         dpi = 300) {
   
   check_poppler()
