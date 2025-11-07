@@ -20,4 +20,6 @@ the PDF slides. The script uses a template PPTX file to maintain consistent slid
 source("pdf_to_pptx.R")
 pdf_to_pptx("your_slides.pdf", "template_for_aspect_ratio.pptx")
 ```
-Then open the generated PPTX file in PowerPoint and double check, delete the pages inherited from the provide template. Done.
+Then open the generated PPTX file (in the same directory of `your_slides.pdf` by default) in PowerPoint and double check, delete the pages inherited from the provide template.
+
+Done.
